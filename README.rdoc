@@ -1,0 +1,23 @@
+== README
+
+DevStreet - Developer's Street (This is where Developers Live)
+
+•	This is a membership-based web application where users can sign up for free
+  or pay a monthly subscription fee for access to our site.
+
+•	This Software-as-a-Service application will give access to an exclusive
+  community of investors, entrepreneurs, employers and developers.
+  
+•	Users can create profile pages
+  o	Free users get basic, limited profiles with contact info hidden
+  o	Paying users get premium access to contact information of all users
+
+Features and Plans:
+
+- Add basic pages like  Home, About..etc using Bootstrap
+- Contact Form system so that application can handle messaging & email
+- Authentication so users can register and login/logout of the site
+- Integrate membership plans: Basic (free) & Pro (recurring monthly fee)
+- Stripe API to handle payment processing
+- Create user profiles that can be edited along with photo upload capability
+- Build a community by listing active users on the Community Page
