@@ -2,3 +2,42 @@
   <h1>Welcome to Dev Street</h1>
   <h3>The place to meet developers</h3>
 </div>
+
+<div class="row">
+
+  <div class="col-sm-6 col-md-6">
+    <div class="well">
+      <!-- <img src="..." alt="..."> -->
+      <div class="caption">
+        <h2 class="text-center">Basic Plan</h2>
+        <h2 class="text-center text-primary"> $0 per month</h2>
+        <h4><span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+           &nbsp;Basic access to Dev Street</h4>
+        <h4><span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span>
+          &nbsp;Access to member information</h4>
+        <h4><span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span>
+          &nbsp;Send private messages to other community members</h4>
+        <p>...</p>
+        <%= link_to "Start your Basic Membership", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-6">
+    <div class="well">
+      <!-- <img src="..." alt="..."> -->
+      <div class="caption">
+        <h2 class="text-center">Pro Membership</h2>
+        <h2 class="text-center text-primary"> $10 per month</h2>
+        <h4><span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+          &nbsp;Basic access to Dev Street</h4>
+        <h4><span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+          &nbsp;Access to member information</h4>
+        <h4><span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+          &nbsp;Send private messages to other community members</h4>
+        <p>...</p>
+        <%= link_to "Start your Pro Membership", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+      </div>
+    </div>
+  </div>
+
+</div>
