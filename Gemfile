@@ -18,6 +18,9 @@ gem 'stripe', '1.16.1'
 gem 'figaro', '1.0.0'
 # Use paperclip for image uploads
 gem 'paperclip'
+gem 'aws-sdk', '~> 2.4', '>= 2.4.3'
+
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
