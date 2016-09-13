@@ -49,7 +49,8 @@
 </div>
 <!-- Include the Google Maps API library - required for embedding maps -->
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHiTjr85134z-ntw2TJdEoViEww9Gp80o&callback=initMap"
+async defer></script>
 <script type="text/javascript">
 
 // The latitude and longitude of your business / place
@@ -60,7 +61,7 @@ function showGoogleMaps() {
     var latLng = new google.maps.LatLng(position[0], position[1]);
 
     var mapOptions = {
-        zoom: 14, // initialize zoom level - the max value is 21
+        zoom: 15, // initialize zoom level - the max value is 21
         streetViewControl: false, // hide the yellow Street View pegman
         scaleControl: true, // allow users to zoom the Google Map
         mapTypeId: google.maps.MapTypeId.ROADMAP,
